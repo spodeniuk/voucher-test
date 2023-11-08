@@ -1,0 +1,22 @@
+@import '~src/assets/scss/variables.scss';
+
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    background-color: $primaryColor;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    height: 50px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.2);
+    &.is-disabled {
+        pointer-events: none;
+        opacity: 0.6;
+    }
+}
