@@ -1,0 +1,10 @@
+@import '~src/assets/scss/variables.scss';
+
+.root {
+    :global(.rc-slider-track) {
+        background-color: $primaryColor;
+    }
+    :global(.rc-slider-handle) {
+        border-color: $primaryColor !important;
+    }
+}
