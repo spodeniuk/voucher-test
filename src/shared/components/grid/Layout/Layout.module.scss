@@ -1,0 +1,20 @@
+@import '~src/assets/scss/variables.scss';
+
+.toastify {
+    :global(.Toastify__toast-body) {
+        font-size: 12px;
+        line-height: 16px;
+        svg {
+            fill: $primarySuccessColor;
+        }
+    }
+    :global(.Toastify__progress-bar--success) {
+        background: $primarySuccessColor;
+    }
+    :global(.Toastify__close-button--light) {
+        &:hover {
+            opacity: 1;
+            color: $primaryNegativeColor;
+        }
+    }
+}
