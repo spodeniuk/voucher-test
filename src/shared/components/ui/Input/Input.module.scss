@@ -1,0 +1,10 @@
+@import '~src/assets/scss/variables.scss';
+
+.root {
+    border: 1px solid $grayBorderColor;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 14px;
+    padding: 16px 20px;
+    font-family: 'Open Sans', sans-serif;
+}
