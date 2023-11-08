@@ -1,0 +1,12 @@
+{
+  "createVoucherButton": "Створити ваучер",
+  "createVoucherModal": {
+    "amountLabel": "Виберіть суму",
+    "searchPlaceholder": "Знайти друга",
+    "messagePlaceholder": "Повідомлення",
+    "messageInfo": "Макс. кількість символів 70",
+    "noResults": "Немає результатів",
+    "button": "Оплатити і відправити",
+    "successNotify": "Ваучер успішно створений та відправлений"
+  }
+}

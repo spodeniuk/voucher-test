@@ -1,0 +1,12 @@
+{
+  "createVoucherButton": "Create voucher",
+  "createVoucherModal": {
+    "amountLabel": "Select amount",
+    "searchPlaceholder": "Search friend",
+    "messagePlaceholder": "Message",
+    "messageInfo": "Max. number of characters 70",
+    "noResults": "No results",
+    "button": "Pay & send",
+    "successNotify": "The voucher has been successfully created and sent"
+  }
+}
